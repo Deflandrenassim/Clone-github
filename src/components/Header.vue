@@ -3,6 +3,7 @@
       <div class="h-droit">
         <nav class="navbar">
           <ul>
+            <li> <i class="fab fa-github"></i></li>
             <li> {{ home }}</li>
             <li> {{ pr }}</li>
             <li> {{ exp }}</li>
@@ -60,9 +61,20 @@ li {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  color: white;
+  
 }
 .search {
+  
   margin : 10px;
   padding: 11px;
+}
+.connexion {
+  border: none;
+  outline: 0px;
+  border-radius: 2rem;
+  background: transparent;
+  cursor: pointer;
+ 
 }
 </style>
