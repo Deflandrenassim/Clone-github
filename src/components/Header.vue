@@ -75,6 +75,20 @@ li {
   border-radius: 2rem;
   background: transparent;
   cursor: pointer;
- 
+  color: white;
+  
+}
+.connexion:hover, 
+.inscription:hover{
+  transition : 1.6s;
+  color: rgb(248, 196, 196);
+  font-size: 20px;
+}
+.inscription {
+  cursor: pointer;
+  margin : 10px;
+  color: white;
+  background: transparent;
+  border: 1.5px;
 }
 </style>
