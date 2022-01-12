@@ -37,10 +37,15 @@ export default {
   display: flex;
   justify-content: space-between;
   margin: 0 100px;
+  
 }
 .center {
   display: flex;
   flex-direction: row;
+}
+.navbar {
+  color: white;
+  cursor: pointer;
 }
 
 ul {
@@ -55,5 +60,9 @@ li {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+.search {
+  margin : 10px;
+  padding: 11px;
 }
 </style>
