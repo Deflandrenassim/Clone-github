@@ -3,7 +3,6 @@
       <div class="h-droit">
         <nav class="navbar">
           <ul>
-            <li> <i class="fab fa-github"></i></li>
             <li> {{ home }}</li>
             <li> {{ pr }}</li>
             <li> {{ exp }}</li>
@@ -11,10 +10,11 @@
         </nav>
       </div>
       <div class="h-gauche">
-        <input type="text" class="search" placeholder="Recherche github" />
+        <input type="text" class="search" placeholder="Recherche.." />
         <button class="connexion">Connexion</button>
         <button class="inscription">Inscription</button>
       </div>
+<h3> {{ dateBuilder }}</h3>
   </div>
 </template>
 
@@ -26,8 +26,22 @@ export default {
       exp: "Expérience",
       pr : "Projet",
       home : "Home"
-}
+    }
+  },
+  methods: {
+    dateBuilder(){
+      let now = new Date();
+      let annee   = now.getFullYear();
+      let mois    = now.getMonth() + 1;
+      let jour    = now.getDate();
+      let heure   = now.getHours();
+      let minute  = now.getMinutes();
+      let seconde = now.getSeconds();
+    
+      return `${annee} ${mois} ${jour} ${heure} ${minute} ${seconde}`;
+    }
   }
+  
 
 };
 </script>
