@@ -37,7 +37,7 @@ export default {
 .container {
   display: flex;
   justify-content: space-between;
-  margin: 0 100px;
+  
   
 }
 .center {
