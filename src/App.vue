@@ -26,8 +26,7 @@ export default {
 body{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  background: rgb(16,45,177);
-  background: linear-gradient(90deg, rgba(16,45,177,1) 0%, rgba(186,0,255,1) 100%);
+  background: #040e22;
   margin: 0 100px;
 }
 

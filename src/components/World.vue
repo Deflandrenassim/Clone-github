@@ -14,7 +14,7 @@
     </div>
 
      <div class="images-p">
-    <img class="imagesToy" src="@/assets/terre.png" alt="Toy Story "  />
+    <img class="imagesToy" src="@/assets/github.png" alt="Toy Story "  />
       </div>
   </div>
 
@@ -62,10 +62,10 @@ export default {
 }
 .images-p{
   position: absolute;
-  top: 100px; left: 800px;
+  top: 80px; left: 800px;
 }
 .imagesToy{
-  height: 25rem;
+  height: 32rem;
   width: 29em;
 }
 </style>
