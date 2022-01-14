@@ -2,7 +2,9 @@
   <div class="home">
     <Header />
     <World />
-    <Footer />
+    <div class="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -28,4 +30,5 @@ body{
   background: linear-gradient(90deg, rgba(16,45,177,1) 0%, rgba(186,0,255,1) 100%);
   margin: 0 100px;
 }
+
 </style>
