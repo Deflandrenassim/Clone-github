@@ -14,7 +14,7 @@
         <button class="connexion">Connexion</button>
         <button class="inscription">Inscription</button>
       </div>
-<h3> {{ dateBuilder }}</h3>
+<i class="fab fa-github-alt"></i>
   </div>
 </template>
 
@@ -27,21 +27,7 @@ export default {
       pr : "Projet",
       home : "Home"
     }
-  },
-  methods: {
-    dateBuilder(){
-      let now = new Date();
-      let annee   = now.getFullYear();
-      let mois    = now.getMonth() + 1;
-      let jour    = now.getDate();
-      let heure   = now.getHours();
-      let minute  = now.getMinutes();
-      let seconde = now.getSeconds();
-    
-      return `${annee} ${mois} ${jour} ${heure} ${minute} ${seconde}`;
-    }
-  }
-  
+  },  
 
 };
 </script>
@@ -71,7 +57,9 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+
 .h-gauche{
+  margin-left:350px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -96,7 +84,7 @@ li {
 .inscription:hover{
   transition : 1.6s;
   color: rgb(248, 196, 196);
-  font-size: 20px;
+  
 }
 .inscription {
   cursor: pointer;
