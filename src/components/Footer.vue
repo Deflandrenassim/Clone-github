@@ -1,12 +1,15 @@
 <template>
   <div>
+
       <hr  class="hr"/>
+     
     <div class="container">
       <img class="image" src="@/assets/github.png" alt=" git hub "  />
        <img class="image" src="@/assets/mail.png" alt=" mail" />
       <img class="image" src="@/assets/linkedin.png" alt=" linkedin" />
     
     </div>
+
   </div>
 </template>
 
@@ -33,4 +36,5 @@ export default {
     height: 40px;
     width: 30px;
 }
+
 </style>

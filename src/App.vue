@@ -2,9 +2,8 @@
   <div class="home">
     <Header />
     <World />
-    <div class="footer">
-      <Footer />
-    </div>
+    <Footer />
+    
   </div>
 </template>
 
@@ -12,13 +11,14 @@
 import Header from './components/Header.vue'
 import World from './components/World.vue'
 import Footer from './components/Footer.vue'
+
 export default {
   name: 'App',
   components: {
     Header,
     World,
-    Footer,
-  }
+    Footer
+}
 }
 </script>
 
