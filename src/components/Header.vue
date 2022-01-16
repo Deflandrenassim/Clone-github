@@ -67,7 +67,8 @@ li {
   
 }
 .search {
-  
+  background-color: #262f42;
+  color: #bcbfc5;
   margin : 10px;
   padding: 11px;
 }

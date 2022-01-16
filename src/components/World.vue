@@ -50,7 +50,6 @@ export default {
 .search {
   height: 35px;
   width: 295px;
-  border-radius: 10%;
   border: none;
 }
 .lien-github {
@@ -68,10 +67,22 @@ export default {
 .images-p {
   position: absolute;
   top: 80px;
-  left: 800px;
+  left: 680px;
 }
 .imagesToy {
-  height: 32rem;
-  width: 29em;
+  height: 33rem;
+  width: 35em;
+}
+.container-toy{
+  display: flex;
+  align-content: flex-end;
+  
+}
+.toy-image{
+  height: 450px;
+  width: 200px;
+  position: absolute;
+  top: 300px;
+  left: 950px;
 }
 </style>
