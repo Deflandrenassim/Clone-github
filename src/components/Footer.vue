@@ -1,7 +1,9 @@
 <template>
   <div>
+      
 
       <hr  class="hr"/>
+     
      
     <div class="container">
       <img class="image" src="@/assets/github.png" alt=" git hub "  />
@@ -20,7 +22,9 @@ export default {
 </script>
 
 <style scoped>
+
 .hr{
+  
     margin: 8rem;
     opacity: 0.4;
     color: rgb(247, 218, 218);
