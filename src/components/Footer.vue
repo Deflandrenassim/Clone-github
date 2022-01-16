@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .hr{
-    margin: 7rem;
+    margin: 8rem;
     opacity: 0.4;
     color: rgb(247, 218, 218);
 }
