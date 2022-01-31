@@ -27,6 +27,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 background: rgb(4,14,34);
+height: 100vh;
 background: linear-gradient(135deg, rgba(4,14,34,1) 83%, rgba(68,31,71,1) 98%);
   margin: 0 100px;
 }
